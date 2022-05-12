@@ -1,0 +1,82 @@
+body{
+    background-image: url("../img/WhatsApp\ Image\ 2022-05-09\ at\ 12.51.06\ PM.jpeg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    text-transform: capitalize;
+}
+.header{
+    vertical-align: middle;
+    background-color: black;
+    padding-left: 30%;
+}
+h2{
+    text-shadow: 1px 1px 10px whitesmoke;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding-left: 33%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dropdown-menu{
+    text-align: center;
+    font-size: 20px;
+}
+h2,
+.navbar-andbr,
+.dropdown-menu{
+    display: inline-block;
+    padding-inline-start: 10px;
+}
+.ds{
+    display: inline-block;
+    text-align: center;
+}
+.food{
+    visibility: visible;
+    text-align: center;
+}
+.drink{
+    visibility: visible;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 10px whitesmoke;
+}
+.descrabtion{
+text-align: center;
+font-size: 20px;
+}
+.audio{
+    visibility: visible;
+    padding-left: 38%;
+}
+.text{
+    text-align: center;
+    font-size: 25px;
+}
+.header,
+.food,
+.drink,
+h1,
+.descrabtion{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar-andbr{
+    text-align: center;
+    padding-left: 33%;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}

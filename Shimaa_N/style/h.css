@@ -1,0 +1,48 @@
+body{
+text-align: center;
+  color: black;
+ background: url(../img/38.jpg) no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #CCC;
+  border-spacing: 0;
+}
+table td {
+  padding: 15px;
+  background-color: #EEE;
+  border: 1px solid rgb(255, 230, 0);
+}
+table thead td {
+  background-color: #06610c;
+  color:rgb(255, 230, 0) ;
+  font-weight: bold;
+  text-align: center;
+  border-color: #06610c;
+}
+.btm{
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  font: size 2em; ;
+  font-weight:800;
+  display: inline-block;
+  padding: 0.9375em 2.1857em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom:100px;
+}
+.btm:hover{
+  background-color: greenyellow;
+  transform:scale(1.1);
+}
+ul {
+  list-style-type:none;
+}
+li {
+  background-color: rgba(172, 139, 20, 0.468);
+  margin-bottom:20px;
+}

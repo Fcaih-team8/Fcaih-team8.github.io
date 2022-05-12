@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Your Profile</title>
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+  <style>
+
+body {
+    background-image:url("k2.jpg");
+    background-size: cover;
+    /*width: 100%;
+    height: 100vh;
+    background-position: center;  */
+
+}
+*:focus {
+    outline: none;
+}
+ .editing {
+     box-sizing: border-box;
+     width: 153px;
+     height: 153px;
+     border: 2px solid rgb(249, 253, 13);
+     box-shadow: -3px -3px 7px olive,
+                  3px 3px 5px rgba(red, green, blue, alpha);
+     border-radius: 50%;
+     background-color:black;
+     margin-top: 50px;
+     overflow: hidden;
+     transition:  all 1s;
+ }     
+ img {
+     box-sizing: border-box;
+     width: 149px;
+     height: 149px;
+     border-radius: 50%;
+     margin: 0;
+     border:red 5px solid ;
+     padding: 3px;
+     background-color: white;
+ }
+
+ input[type="text"] ,
+ input[type="email"] {
+     display: block;
+     box-sizing: border-box;
+     background:none;
+     color: rgb(249, 253, 13);
+     margin-bottom: 30px;
+     padding: 4px;
+     width: 220px;
+     height: 32px;
+     border: none;
+     border-bottom:darkgoldenrod;
+     font-family: 'robto', sans-serif;
+     font-weight: 400;
+     font-size: 15px;
+     transition: 0.2s ease;
+ }
+ input[type="text"] :focus,
+ input[type="email"] :focus {
+     border-bottom: 2px solid #353d8e;
+     border-bottom-right-radius: 20px;
+     color:darkgoldenrod;
+     transition: 0.2 ease;
+ }
+button{
+    border: 1px solid darkgoldenrod;
+    background-color:black ;
+    color: blanchedalmond;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+input[type="file"] {
+    display: none;
+}
+ label{
+     box-sizing: border-box;
+     font-size: 20px;
+     background-color: black;
+     color: cornsilk;
+     border: 1px solid darkgoldenrod;
+     padding: 2px 15px;
+     border-radius: 5px;
+     transition: all 0.3s;
+ }
+ label :hover {
+     background-color: darkgoldenrod;
+     color: black;
+ }
+.editing:hover{
+    width: 360px;
+    height: 600px;
+    border-radius: 5px; 
+}
+.editing : hover
+ img {
+        width: 100px;
+        margin: 20px 31%;
+    }
+ </style>
+
+<body>
+    <center>
+        <div class="counter"></div>
+        <div class="editing">
+            <img src="P1.jpg"></image>
+            <input type="file" name="" id="file" accept="image/*">
+            <label for="file">Edit Picture</label>
+            <input type="text" name="" placeholder="User Name">
+            <input type="email" name="" placeholder="E-mail">
+            <input type="text" name="" placeholder="Change Password">
+            <input type="text" name="" placeholder="Confirm Password">
+            <input type="text" name="" placeholder="Phone Number">
+            <button style="float:left ;margin: 10px 0 0 18.2%;">cancel</button>
+            <button style="float: right ; margin: 10px 18.2% 0 0;">done</button>
+
+
+
+        </div>
+    </center>
+</body>
+
+</html>
